@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="utf-8">
+  <title>Our Friend Leo</title>
+  <meta name="description" content="Our Friend Leo is a proof-of-concept developed by the D/C Makers, an internship program at Duncan/Channon.">
+	<meta name="author" content="duncanchannon makers">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="stylesheets/base.css">
+  <link rel="stylesheet" href="stylesheets/style.css">
+	<link rel="stylesheet" href="stylesheets/skeleton.css">
+	<link rel="stylesheet" href="stylesheets/layout.css">
+	
+	<!-- Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600' rel='stylesheet' type='text/css'>
+
+  <!-- Icons -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+
+  <!-- JavaScript -->
+  <script type="text/javascript" src="scripts/jquery.js" charset="utf-8"></script>
+  <script type="text/javascript" src="scripts/base.js" charset="utf-8"></script>
+  <script type="text/javascript" src="scripts/twitter.js" charset="utf-8"></script>
+  <script type="text/javascript" src="scripts/flickr.js" charset="utf-8"></script>
+  <script type='text/javascript' src='scripts/fitvids.js' charset="utf-8"></script>
+  <script type="text/javascript" src="scripts/misc.js" charset="utf-8"></script>
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-33866243-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+  
+</head>
+<body>
+  <div id="loader"></div>
+  <div class="wrapper">
+    
+    <div class="background background-white background-header">
+      <div class="container">
+        <div class="sixteen columns">
+          <img src="images/leo-logo-full.png">
+        </div>
+        <div class="sixteen columns">
+          <h3 class="align-center">Meet Leo, the guitar who loves you back.</h3>
+          <p class="">Leo is a guitar with a personality and a voice to express it. The Duncan/Channon Makers gave him sensors, a microcontroller, and a Twitter account. With these, he can live-tweet his guitar experiences any time something happens, like when someone plays him. Read on to find out how you can interact with Leo. Maybe you’ll become his next best friend.</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="background background-light-gray">
+      <div class="container">
+        <div class="sixteen columns video-container">
+          <iframe src="http://player.vimeo.com/video/46912648?title=0&amp;byline=0&amp;portrait=0&amp;color=D58800" width="940" height="528" frameborder="0" id="video" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+        </div>
+        <div class="sixteen columns">
+          <!--
+          <h2 class="video-description align-center">Meet Leo, the guitar who loves you back.</h2>
+          <p class="">Leo is a guitar with a personality and a voice to express it. The Duncan/Channon Makers gave him sensors, a microcontroller, and a Twitter account. With these, he can live-tweet his guitar experiences any time something happens, like when someone plays him. Read on to find out how you can interact with Leo. Maybe you’ll become his next best friend.</p>-->
+          <h4 class="video-description align-center">Sometimes, life gets stressful. Work goes long. Like a good friend, Leo is there for the rough days.</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="background background-yellow">
+      <div class="container">
+        <div class="how-it-works">
+          <div class="one-third column">
+            <img src="images/twitter.png">
+            <h4 class="align-center">Tweet</h4>
+            <p>Introduce yourself to Leo by tweeting at him with a “#hello.” He’ll remember your handle. Next time you play him, just tweet at him again with “#hello.” He’ll be glad to feel you!</p>
+          </div>
+          <div class="one-third column">
+            <img src="images/notes.png">
+            <h4 class="align-center">Play</h4>
+            <p>Make some sweet, passionate music with Leo. He’ll remember when you play and for how long, in case you ever want to know.</p>
+          </div>
+          <div class="one-third column">
+            <img src="images/heart.png">
+            <h4 class="align-center">Love</h4>
+            <p>Form a reciprocal relationship with Leo. He tweets his own guitar-experiences, too. He’ll miss you when you’re gone. He’ll be there when you need him.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="background background-gold">
+      <div class="container">
+        <div class="sixteen columns">
+          <div id="diagram"></div>
+        </div>
+        <div class="row diagram-explanation">
+          <div class="four columns">
+            <h4 class="align-center">A. See</h4>
+            <p>A camera has been mounted on Leo’s headstock, which lets him put a chin to the name of the player. He uploads each photo to his personal Flickr account, so he can remember every interaction.</p>
+          </div>
+          <div class="four columns">
+            <h4 class="align-center">B. Sense</h4>
+            <p>A piezoelectric sensor allows Leo to sense exactly when someone is playing him&mdash;and when they have stopped.</p>
+          </div>
+
+          <div class="four columns">
+            <h4 class="align-center">C. Think</h4>
+            <p>Thanks to his pimped out Arduino microcontroller brain, Leo can remember the last time someone played him, how long it was, and how much he’s hung out with this human overall.</p>
+          </div>
+          <div class="four columns">
+            <h4 class="align-center">D. Tweet</h4>
+            <p>Leo live-tweets thoughts about his human friends, his joys, his sorrows, his existential crises, and other observational musings. That’s what Twitter is for, right?</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="background background-tan">
+      <div class="container">
+        <div class="four columns offset-by-six align-center" id="leo-profile">
+          <a href="https://twitter.com/ourfriendleo" target="_blank"><img src="images/leo-profile.png" class="leo-profile-pic"></a>
+          <p class="handle"><a href="https://twitter.com/ourfriendleo" target="_blank">@ourfriendleo</a></p>
+
+        </div>
+        <div class="sixteen columns align-center" id="tweet">
+
+        </div>
+      </div>
+    </div>
+    
+    <div class="background background-light-gray background-pad-bottom">
+      <div class="container">
+        <div class="sixteen columns align-center flickr-title">
+          <h4>Leo spends most of his active life horizontal, which gives him a unique perspective. This is the world from his point of view.</h4>
+        </div>
+        <div id="flickr">
+
+        </div>
+      </div>
+    </div>
+    
+    <div class="background background-dark-gray background-pad-bottom">
+      <div class="container">
+        <div class="sixteen columns align-center">
+          <h4>Leo doesn’t consider just anyone his friend. Like humans, he creates stronger bonds with people who spend more time with him on a regular basis.</h4>
+        </div>
+        <div class="players align-center">
+        
+        </div>
+      </div>
+    </div>
+    
+    <div id="footer">
+      <div class="background background-white background-footer">
+        <div class="container">
+          <div class="sixteen columns footer-image">
+            <a href="http://duncanchannon.com" target="_blank"><img src="images/duncanchannon.png"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+  </div><!-- end div wrapper -->
+</body>
